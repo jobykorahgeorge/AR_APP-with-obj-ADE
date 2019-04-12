@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:opencv="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary"
+    tools:context="com.adobe.intelliscan.scan.ARScanActivity">
+
+    <org.opencv.android.JavaCameraView
+        android:id="@+id/scan_camera_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:foregroundTint="#33000000"
+        android:visibility="gone"
+        opencv:camera_id="any"
+        opencv:show_fps="false" />
+
+    <RelativeLayout
+        android:id="@+id/scan_viewfinder_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="70dp"
+        android:paddingLeft="70dp"
+        android:paddingRight="70dp"
+        android:paddingTop="80dp">
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="2dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/view_finder" />
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="2dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/view_finder" />
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/view_finder" />
+
+        <View
+            android:layout_width="70dp"
+            android:layout_height="2dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/view_finder" />
+
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/view_finder" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:background="@color/view_finder" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:background="@color/view_finder" />
+
+        <View
+            android:layout_width="2dp"
+            android:layout_height="50dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@color/view_finder" />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/scan_message_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:background="#33000000"
+        android:padding="2dp"
+        android:textColor="#66FFFFFF"
+        android:textSize="11sp" />
+
+    <TextView
+        android:id="@+id/scan_title_txt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:foregroundTint="@color/black_overlay"
+        android:gravity="center"
+        android:textColor="@color/font_white"
+        android:textSize="23sp" />
+
+    <ImageButton
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerVertical="true"
+        android:background="@android:color/transparent"
+        android:onClick="onConfigClick"
+        android:src="@drawable/ic_settings"
+        android:tint="@android:color/white" />
+
+    <LinearLayout
+        android:id="@+id/scan_fragment_container"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/scan_title_txt"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+</RelativeLayout>

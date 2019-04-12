@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2d3032</color>
+    <color name="colorPrimaryDark">#202020</color>
+    <color name="colorAccent">#9873b2</color>
+
+    <color name="view_finder">#66ffffff</color>
+    <color name="black_overlay">#77000000</color>
+
+    <color name="radio_checked">#20a959</color>
+    <color name="radio_unchecked">#0b0b0b</color>
+
+    <color name="font_white">#EEEEEE</color>
+    <color name="dot_color">#E6FC0000</color>
+    <color name="dot_default">#FDFFFFFF</color>
+</resources>

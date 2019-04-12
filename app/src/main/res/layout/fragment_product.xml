@@ -1,0 +1,122 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black_overlay"
+    android:padding="20dp"
+    tools:context="com.adobe.intelliscan.scan.ProductFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <android.support.v4.view.ViewPager
+            android:id="@+id/prod_image_pager"
+            android:layout_width="wrap_content"
+            android:layout_height="120dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"/>
+
+        <android.support.design.widget.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prod_image_pager"
+            app:tabBackground="@drawable/tab_selector"
+            app:tabGravity="center"
+            app:tabIndicatorHeight="0dp"/>
+
+
+        <RadioGroup
+            android:id="@+id/prod_radio_group"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/tab_layout"
+            android:orientation="horizontal"
+            android:weightSum="3">
+
+            <com.adobe.intelliscan.utils.CustomRadioButton
+                android:id="@+id/prod_color_radio"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="COLORS"
+                android:textColor="@color/font_white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <com.adobe.intelliscan.utils.CustomRadioButton
+                android:id="@+id/prod_feature_radio"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="KEY FEATURES"
+                android:textColor="@color/font_white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <com.adobe.intelliscan.utils.CustomRadioButton
+                android:id="@+id/prod_spec_radio"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="5dp"
+                android:layout_weight="1"
+                android:clickable="true"
+                android:gravity="center"
+                android:text="SPECS"
+                android:textColor="@color/font_white"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+        </RadioGroup>
+
+        <LinearLayout
+            android:id="@+id/prod_colors_layout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prod_radio_group"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/prod_key_features_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prod_radio_group"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:textColor="@color/font_white"
+            android:visibility="gone" />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/prod_specs_recycle_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/prod_radio_group"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="10dp"
+            android:scrollbars="none"/>
+
+        <ImageButton
+            android:id="@+id/prod_close_ibtn"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignParentRight="true"
+            android:background="@android:color/transparent"
+            android:src="@drawable/ic_close" />
+
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,69 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "Product Buy Link": "https://www.shoppersstop.com/garmin-vivofit-2-black-activity-tracker/p-201819788",
+
+  "Key Features": [
+    "Activity Tracker with Move Bar and Alerts\n\n\u2022\tFeatures 1+ year battery life\n\u2022\tReminds you to stay active with move bar and audible alert\n\u2022\tLearns your activity level and proposes a personalized daily goal\n\u2022\tShows steps, calories, distance and time of day on backlit display; monitors sleep\n\u2022\tAutomatically syncs to Garmin Connect™ to save, plan and share progress\nGet up and get moving with vívofit 2. It\u2019s the only activity tracker¹ with a 1+ year battery life and backlit display. It even reminds you to stay active throughout your day with its move bar with audible alert that lets you know when you\u2019ve been idle for an hour or longer.",
+    "Tells Time and \u201cTime to Move\u201d\n\nResearch shows prolonged periods of inactivity such as sitting at a desk decreases your body\u2019s production of fat-burning enzymes. You can reverse that effect by taking frequent, short walk breaks throughout your day. And while you might lose track of time and forget to move, vívofit 2 knows. A red move bar appears on the display and a gentle alert sounds after one hour of inactivity. The move bar builds every 15 minutes until you reset it by walking for a couple of minutes.\n",
+    "24/7 Wearable\n\nVívofit 2 follows your progress 24/7 thanks to its 1-year battery life. Set the sleep mode when you go to bed and it will monitor your rest. Optional accessory bands in various color schemes let you coordinate your vívofit to your wardrobe.",
+    "Personalized Daily Goals\n\nVívofit 2 learns your current activity level, then assigns an attainable daily goal. As you meet your milestones, vívofit 2 will adjust your goal for the next day, gradually nudging you toward a healthier lifestyle.",
+    "Keep Count\n\nUse the activity timer to record a timed activity, such as a walk or run, which can be saved and sent to Garmin Connect. Pair Vívofit 2 with a heart rate monitor² during fitness activities, such as a run or a cardio class at the gym, to record your heart rate and zone data and get more accurate calorie burn information. For detailed calorie tracking, you can create an account at MyFitnessPal and link it to your Garmin Connect account.",
+    "Get Connected\n\nThroughout your day, vívofit 2 automatically syncs to Garmin Connect, where you can see a complete picture of your progress, join online challenges and earn virtual badges for extra motivation. It's so simple to get started. After you are set up, access our free online community from your computer or on your compatible mobile device³ with the Garmin Connect™ Mobile app.",
+    "Wings for Life\n\nGarmin has partnered with the Wings for Life World Run, a running and wheelchair event to raise awareness and funds to find a cure for spinal cord injuries. To assist in the race\u2019s mission and help bring awareness, Garmin will be providing support for the organization\u2019s efforts.\nDesigned to help develop healthy habits, the Wings for Life limited edition vívofit 2 will encourage you to lead a more active lifestyle while showing support for the race\u2019s cause and its motto: running for those who can\u2019t."
+  ],
+
+  "Specs": [
+    "General\n\nPhysical dimensions - 21 mm wide x 10.5 mm thick (length varies based on band size; 120-175mm (small wrist circumference) and 152-210mm (large wrist circumference)\nWeight - 25.5 g (0.89 oz)\nWater rating - 5 ATM\nBattery type - Two replaceable CR1632 coin cells\nDisplay size - 1.00\" x 0.39\" (25.5 mm x 10 mm)\nDisplay resolution - Segmented LCD\nBattery life - More than 1 year\nNegative mode display",
+    "Sensors\n\nAccelerometer",
+    "Activity Tracking Features\n\nStep counter\nMove bar (displays on device after a period of inactivity; walk for a couple of minutes to reset it)\nAuto goal (learns your activity level and assigns a daily step goal)\nSleep monitoring (monitors total sleep and periods of movement or restful sleep)\nCalories burned",
+    "Garmin Connect™\n\nGarmin Connect™ compatible (online community where you analyze, categorize and share data)",
+    "Additional\n\n\u2022\tBacklight\n\u2022\tBeeper\n\u2022\tActivity timer"
+  ],
+
+  "Product Details Link": "https://buy.garmin.com/en-US/US/p/504038#overview",
+  "Product Image": "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit_2_black_activity_tracker.png",
+  "Product Title": "Garmin Vivofit 2 Black Activity Tracker",
+
+  "Colors": [
+    {
+      "Color": "Black",
+      "Hex": "#000000",
+      "Images": [
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_black_activity_tracker_1.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_black_activity_tracker_2.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_black_activity_tracker_3.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_black_activity_tracker_4.png"
+      ]
+    },
+    {
+      "Color": "White",
+      "Hex": "#FFFFFF",
+      "Images": [
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_white_activity_tracker_1.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_white_activity_tracker_2.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_white_activity_tracker_3.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_white_activity_tracker_4.png"
+      ]
+    },
+    {
+      "Color": "Navy",
+      "Hex": "#000080",
+      "Images": [
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_navy_activity_tracker_1.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_navy_activity_tracker_2.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_navy_activity_tracker_3.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_navy_activity_tracker_4.png"
+      ]
+    },
+    {
+      "Color": "Pink",
+      "Hex": "#FF00FF",
+      "Images": [
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_pink_activity_tracker_1.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_pink_activity_tracker_2.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_pink_activity_tracker_3.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/gramin_vivofit2_pink_activity_tracker_4.png"
+      ]
+    }
+  ]
+}

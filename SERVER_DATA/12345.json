@@ -1,0 +1,39 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "Product Buy Link": "https://www.shoppersstop.com/adidas-mens-mesh-lace-up-sport-shoes/p-201915422",
+
+  "Key Features": [
+    "The sleek looking adidas Adispree running shoes for men crafted with Synthetic overlays with Mesh upper. The breathable Mesh toe with Synthetic at heel offer extended grip and comfort. Lightstrike IMEVA midsole with visible ADIPRENE provides protection from harmful impact forces. Full Rubber outsole provides durability.",
+    "Synthetic overlays with Mesh upper",
+    "Lightstrike IMEVA midsole with visible ADIPRENE providing protection from harmful impact forces",
+    "Full Rubber outsole for durability",
+    "adidas Performance logo on the tongue and back"
+  ],
+
+  "Product Title": "Adidas Mens Mesh Lace Up Sport Shoes",
+
+  "Colors": [
+    {
+      "Color": "Black, Metallic Silver and Energy",
+      "Hex": "#000000",
+      "Images": [
+        "http://10.42.201.199:4503/content/dam/ar_app/adidas_mens_lace_sports_shoes_1.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/adidas_mens_lace_sports_shoes_2.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/adidas_mens_lace_sports_shoes_3.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/adidas_mens_lace_sports_shoes_4.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/adidas_mens_lace_sports_shoes_5.png"
+      ]
+    },
+    {
+      "Color": "Dark Grey, Core Blue and Metallic Silver",
+      "Hex": "#0000FF",
+      "Images": [
+        "http://10.42.201.199:4503/content/dam/ar_app/adidas_mens_lace_sports_shoes_blue_1.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/adidas_mens_lace_sports_shoes_blue_2.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/adidas_mens_lace_sports_shoes_blue_3.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/adidas_mens_lace_sports_shoes_blue_4.png",
+        "http://10.42.201.199:4503/content/dam/ar_app/adidas_mens_lace_sports_shoes_blue_5.png"
+      ]
+    }
+  ]
+}
